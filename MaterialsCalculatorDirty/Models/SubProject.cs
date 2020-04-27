@@ -21,6 +21,7 @@ namespace MaterialsCalculatorDirty.Models
         public decimal GetSumm()
         {
             decimal result = 0;
+
             foreach (var item in Materials)
                 result += item.GetSumm();
 
